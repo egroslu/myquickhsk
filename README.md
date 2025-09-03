@@ -1,3 +1,11 @@
+- [Project Description](#project-description)  
+- [Foreword](#foreword)  
+- [Versions](#versions)  
+- [Platform Information](#platform-information)  
+- [Front/Back Support](#frontback-support)  
+- [Present Functionality](#present-functionality)  
+- [Design](#design)
+
 # 📄 我的 快速 HSK / MyQuickHSK (_README / WIKI_)
 ### _HAND-SELECTED, HSK LEVEL-VARIABLE, CUSTOMIZABLE STUDY CARD DIGITAL SERVICE_
 
@@ -51,3 +59,9 @@ Back-End (Data-Handling):
 ## DESIGN
 
 ![An image](./wireframe.png)
+
+## CREDITS & LICENSE
+### _Credits_:
+Built by _Ethan G._ for SAINT LEO UNIVERSITY, COM-437-OL01 — "Mobile Application Development" [FALL 2025 course section]
+### _Data Sources_:
+CC-CEDICT (public domain); curated HSK lists (_Ethan G._ via open educational resources)
