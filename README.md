@@ -59,6 +59,7 @@ Back-End (Data-Handling):
 ## DESIGN
 
 ![An image](./wireframe.png)
+(<ins>**NOTE**</ins> — _Wireframe presented in simple schematic format to highlight flow and functionality. Final layouts may vary._)
 
 ## CREDITS & LICENSE
 ### _Credits_:
