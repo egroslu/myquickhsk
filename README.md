@@ -5,11 +5,12 @@
 - [Front/Back Support](#frontback-support)  
 - [Present Functionality](#present-functionality)  
 - [Design](#design)
+- [Credits & License](#credits-license)
 
 # 📄 我的 快速 HSK / MyQuickHSK (_README / WIKI_)
 ### _HAND-SELECTED, HSK LEVEL-VARIABLE, CUSTOMIZABLE STUDY CARD DIGITAL SERVICE_
 
-#
+## PROJECT DESCRIPTION
 
 This Android application provides Mandarin learners with an optionally-offlineable, self-tailorable review and dictionary service.  Users can select their HSK level and then, at a minimum, customize review vocabulary via easy-to-use flipcards; and, optionally, download locally, onto their device, a searchable database with 100,000+ characters (especially handy when needing access to characters offline).  The app integrates external data via complimentary GitHub filehosting (in lieu of an for-profit API) — which, data can be ported to a local Room (Android) database, on-device, ensuring the user's preferred state persistence.
 
