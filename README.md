@@ -48,6 +48,6 @@ Back-End (Data-Handling):
 -  _Select Favorites_: Create and update personal flashcards.
 -  _Persistence_: Dictionary levels (optional) and user cards locally saveable via Room DB.
 
-## Design
+## DESIGN
 
 ![An image](./wireframe.png)
