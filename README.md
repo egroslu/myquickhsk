@@ -53,7 +53,7 @@ Back-End (Data-Handling):
 -  _HSK Level Selection_: Choose between HSK-1, HSK-2, HSK-3 lists.
 -  _Search_: Look up words across all levels via dictionary.
 -  _TTS (Text-to-Speech)_: Hear pronunciation using Android’s TextToSpeech service.
--  _Flashcard Review_: Browse and flip study cards.
+-  _Flashcard Review_: Browse, flip, and notate study cards.
 -  _Select Favorites_: Create and update personal flashcards.
 -  _Persistence_: Dictionary levels (optional) and user cards locally saveable via Room DB.
 
