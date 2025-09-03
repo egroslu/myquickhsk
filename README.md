@@ -2,7 +2,7 @@
 - [Foreword](#foreword)  
 - [Versions](#versions)  
 - [Platform Information](#platform-information)  
-- [Front/Back Support](#frontback-support)  
+- [Front / Back Support](#frontback-support)  
 - [Present Functionality](#present-functionality)  
 - [Design](#design)
 - [Credits & License](#credits--license)
