@@ -5,7 +5,7 @@
 - [Front/Back Support](#frontback-support)  
 - [Present Functionality](#present-functionality)  
 - [Design](#design)
-- [Credits & License](#credits-license)
+- [Credits & License](#credits--license)
 
 # 📄 我的 快速 HSK / MyQuickHSK (_README / WIKI_)
 ### _HAND-SELECTED, HSK LEVEL-VARIABLE, CUSTOMIZABLE STUDY CARD DIGITAL SERVICE_
