@@ -28,7 +28,7 @@ The first iteration of this service aims to provide a TTS-centric (Text-to-Speec
 -  _TTS (Text-to-Speech) Dictionary (100K+ character set)_
 -  _Review Cards (w/ Favorites & Bests System)_
 -  _Gamified HSK-level Unlock system (optional)_
--  _Digital Notebook (in-app)_
+-  _Digital Notebook (per-card; in-app)_
 -  _UI Theme Customization  (Light / Dark; Theme Color Variants)_
 -  _Online & Offline General Access Options_
 
