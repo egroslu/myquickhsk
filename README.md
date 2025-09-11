@@ -64,6 +64,10 @@ Back-End (Data-Handling):
 
 ## CREDITS & LICENSE
 ### _Credits_:
-Built by _Ethan G._ for SAINT LEO UNIVERSITY, COM-437-OL01 — "Mobile Application Development" [FALL 2025 course section]
+Built by _Ethan G._ for SAINT LEO UNIVERSITY, COM-437-OL01 — "Mobile Application Development" graded homework project [FALL 2025 course section]
 ### _Data Sources_:
 CC-CEDICT (public domain); curated HSK lists (_Ethan G._ via open educational resources)
+
+## RELEASE OF CLAIMS / DISCLAIMER
+This project — including all code, design, documentation, and related intellectual property — is created and privately owned solely by the author _Ethan G._  SAINT LEO UNIVERSITY, its faculty, staff (including adjunct), and affiliates are expressly disclaimed from any ownership, rights, and all other forms of claims to the project (whether arising under course participation, instruction, or otherwise).  Submission for academic purposes does not confer, transfer, or assign any portion of ownership or interest to SAINT LEO UNIVERSITY.  Any attempts by SAINT LEO UNIVERSITY or its representatives to the contrary will be pursued under the full faith and letter of the law.  By accepting this project for graded marks, SAINT LEO UNIVERSITY waives all supposed rights to the project and, in the event of a breach of this agreement, SAINT LEO UNIVERSITY agrees to foot all related legal costs of both parties for the full course of the resulting arbitration.
+
