@@ -62,6 +62,9 @@ Back-End (Data-Handling):
 ![An image](./wireframe.png)
 (<ins>**NOTE**</ins> — _Wireframe presented in simple schematic format to highlight flow and functionality. Final layouts may vary._)
 
+### Design Notes
+Native Unicode glyphs were chosen as part of design philosophy:  This service stresses functional accessibility and lack of bloat is part of guaranteeing access.  我的 快速 HSK should be able to run on all devices Android 4.4 (KitKat) and later; this way, even the user's old "potato" phone — lying around, collecting dust — can be repurposed into a pocket Chinese dictionary (e.g.  in the event of not being able to use one's main device[s]).
+
 ## CREDITS & LICENSE
 ### _Credits_:
 Built by _Ethan G._ for SAINT LEO UNIVERSITY, COM-437-OL01 — "Mobile Application Development" graded homework project [FALL 2025 course section]
