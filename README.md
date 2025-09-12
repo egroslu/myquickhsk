@@ -69,7 +69,7 @@ Native Unicode glyphs were chosen as part of design philosophy:  This service st
 ### _Credits_:
 Built by _Ethan G._ for SAINT LEO UNIVERSITY, COM-437-OL01 — "Mobile Application Development" graded homework project [FALL 2025 course section]
 ### _Data Sources_:
-CC-CEDICT (public domain); curated HSK lists (_Ethan G._ via open educational resources)
+CC-CEDICT (public domain); curated HSK lists (_Ethan G._ via open educational resources); native emojis (Android builtins)
 
 ## RELEASE OF CLAIMS / DISCLAIMER
 This project — including all code, design, documentation, and related intellectual property — is created and privately owned solely by the author _Ethan G._
