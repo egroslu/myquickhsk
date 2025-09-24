@@ -85,7 +85,9 @@ Back-End (Data-Handling):
 ### _Credits_:
 Built by _Ethan G._ for SAINT LEO UNIVERSITY, COM-437-OL01 — "Mobile Application Development" graded homework project [FALL 2025 course section]
 ### _Data Sources_:
-CC-CEDICT (public domain); curated HSK lists (_Ethan G._ via open educational resources); native emojis (Android builtins)
+- CC-CEDICT (public domain)
+- Curated HSK lists (_Ethan G._ via open educational resources)
+- Native emojis (Android builtins)
 
 ## DISCLAIMER (RELEASE OF CLAIMS)
 This project — including all code, design, documentation, and related intellectual property — is created and privately owned solely by the author _Ethan G._
