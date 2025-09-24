@@ -62,13 +62,32 @@ Back-End (Data-Handling):
 ![An image](./wireframe.png)
 (<ins>**NOTE**</ins> — _Wireframe presented in simple schematic format to highlight flow and functionality. Final layouts may vary._)
 
+## CHANGELOG
+
+### Version 0.3 (Week 4)
+- Consolidated Favorites feature into dictionary (simplified scope).
+- Finalized splashes and RecyclerView with search/filter shell (HSK levels, Favorites switch, [un]practiced filters).
+- Began work on CC-CEDICT parser.
+- Prepared for Room DB integration for persistence of user data.
+
+### Version 0.2 (Week 3)
+- Implemented navigation between splash screens and placeholder Activities.
+- Added Disclaimer (Release of Claims) to README/Wiki.
+
+### Version 0.1 (Week 1)
+- Defined project idea and scope.
+- Outlined Minimum Viable Product ("MVP"): Flashcards + dictionary (w/ HSK level filtering).
+- Crafted wireframes for core activities (splashes, review, dictionary).
+- Outlined Version 1.0 features list and overall scope.
+- Repo initialized with README / Wiki.
+
 ## CREDITS & LICENSE
 ### _Credits_:
 Built by _Ethan G._ for SAINT LEO UNIVERSITY, COM-437-OL01 — "Mobile Application Development" graded homework project [FALL 2025 course section]
 ### _Data Sources_:
 CC-CEDICT (public domain); curated HSK lists (_Ethan G._ via open educational resources); native emojis (Android builtins)
 
-## RELEASE OF CLAIMS / DISCLAIMER
+## DISCLAIMER (RELEASE OF CLAIMS)
 This project — including all code, design, documentation, and related intellectual property — is created and privately owned solely by the author _Ethan G._
 
 SAINT LEO UNIVERSITY, its faculty, staff (including adjunct), and affiliates are expressly disclaimed from any ownership, rights, and all other forms of claims to the project (whether arising under course participation, instruction, or otherwise).  Submission for academic purposes does not confer, transfer, or assign any portion of ownership or interest to SAINT LEO UNIVERSITY.
