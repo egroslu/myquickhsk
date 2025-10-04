@@ -12,25 +12,24 @@
 
 ## PROJECT DESCRIPTION
 
-This Android application provides Mandarin learners with an optionally-offlineable, self-tailorable review and dictionary service.  Users can select their HSK level and then, at a minimum, customize review vocabulary via easy-to-use flipcards; and, optionally, download locally, onto their device, a searchable database with 100,000+ characters (especially handy when needing access to characters offline).  The app integrates external data via complimentary GitHub filehosting (in lieu of an for-profit API) — which, data can be ported to a local Room (Android) database, on-device, ensuring the user's preferred state persistence.
+This Android application provides Mandarin learners with an offline, self-tailorable review and dictionary service.  Downloaded locally, onto their device, comes a searchable database with 100,000+ character entries (which is especially handy when needing access to characters without phone service).  Users can select their HSK level and then, at a minimum, customize review vocabulary via easy-to-use flipcards.  And the app integrates a local Room (Android) database, on-device, ensuring the user's preferred state persistence.
 
 ## FOREWORD
 
-Many students struggle to access structured Mandarin vocabulary tailored to their level; existing apps are often subscription-based and/or lack [any] customization.  This project provides a free, simple, customizable alternative where learners can study HSK-aligned vocabulary and expand their deck with personal notes.  This project is built with inspiration from the developer's own, personal journey into learning Mandarin and having issues with QoL (Quality of Life) features across different language learning apps.  Though this is not a commercial product, it is a project satisfying not only banal requirements for a University semester project as an illustrative learning example, but, also, the developer's own vestedly-interested wants concerning language-learning.  Future versions will, undoubtedly, continually interate moving forward; as, the project aims for top marks both academic _and_ serviceable in the Mobile Application market; so, why not provide the service, indefinitely, adding features as leisure allows?
+Many learners struggle to access structured Mandarin vocabulary self-tailored to their level; existing apps are often subscription-based and/or lack [any] customization.  This project provides a free, simple, customizable alternative where learners can study HSK-aligned vocabulary and expand their deck with personal notes.  This project is built with inspiration from the developer's own, personal journey into learning Mandarin and having issues with Quality of Life (QoL) features across different language learning apps.  Though this is not a commercial product, it is a project satisfying not only banal requirements for a University semester project as an illustrative learning example, but, also, the developer's own vestedly-interested desires concerning their language-learning.  Future versions will, undoubtedly, continually interate moving forward; as, the project aims for top marks both academic _and_ serviceable in the Mobile Application market; so, why not provide the service, indefinitely, adding features as able?
 
 ## VERSIONS
-The first iteration of this service aims to provide a TTS-centric (Text-to-Speech), litely-gamified personalized review and notation service coupled with quick-access to what is often considered the gold standard of Chinese character collections (CC-CEDICT).  Future versions need center around phrasebuilding; grammar and context learning; audiovisual samples and reviews; AI and live partner speech practice; and beyond.
+The first iteration of this service aims to provide a TTS-centric (Text-to-Speech), litely-gamified personalized review and notation service coupled with quick-access to what is often considered the gold standard of Chinese character collections (CC-CEDICT).  Future versions need center around phrasebuilding; grammar and context learning; audiovisual samples and reviews; AI- and live-partner-speech practice; and beyond.
 
 #
 
 ### <ins>VERSION 1.0 FEATURES</ins>
--  _Hand-Chosen HSK Level Character Sets_
--  _TTS (Text-to-Speech) Dictionary (100K+ character set)_
--  _Review Cards (w/ Favorites & Bests System)_
--  _Gamified HSK-level Unlock system (optional)_
+-  _Hand-Chosen HSK Level Character Sets (full HSK 1-9)_
+-  _TTS (Text-to-Speech) Dictionary (full 100K+ language set)_
+-  _Review Cards (w/ optional Favorites & Unpracticed modes)_
 -  _Digital Notebook (per-card; in-app)_
 -  _UI Theme Customization  (Light / Dark; Theme Color Variants)_
--  _Online & Offline General Access Options_
+-  _100% Offline General Access_
 
 ## PLATFORM INFORMATION
 ### ANDROID
@@ -43,43 +42,51 @@ Language: _Java_
 
 Front-End (User-Facing):
 -  Activities for menu, flashcards, and search
--  XML layouts for UI (RecyclerView for card lists)
+-  XML layouts for UI (RecyclerView for search results list)
 
 Back-End (Data-Handling):
--  JSON vocab lists hosted on GitHub (akin to API endpoint)
 -  Room database for local storage, persistence, and CRUD operations
 
 ## PRESENT FUNCTIONALITY
--  _HSK Level Selection_: Choose between HSK-1, HSK-2, HSK-3 lists.
+-  _HSK Level Selection_: Choose between HSK 1-9 lists.
 -  _Search_: Look up words across all levels via dictionary.
 -  _TTS (Text-to-Speech)_: Hear pronunciation using Android’s TextToSpeech service.
 -  _Flashcard Review_: Browse and flip study cards.
 -  _Select Favorites_: Save and notate personal flashcards.
--  _Persistence_: Dictionary levels (optional) and user cards locally saveable via Room DB.
+-  _Persistence_: Dictionary, reviewed terms, favorites, and notes locally saved via built-in Android Resources (res) and via Room DB.
 
 ## DESIGN
 
 ![An image](./wireframe.png)
-(<ins>**NOTE**</ins> — _Wireframe presented in simple schematic format to highlight flow and functionality. Final layouts may vary._)
+(<ins>**NOTE**</ins> — _Wireframe presented in simple schematic format to highlight flow and functionality. Final app layout varies._)
 
 ## CHANGELOG
 
+### Version 0.5 (Week 6)
+- Removed "Bests" concept (not conducive to UX and functionally unuseful)
+- Added Unpracticed term filter in-place of removed "Bests" system
+- Moved full language dictionary to local storage (negligble to ship locally)
+
+### Version 0.4 (Week 5)
+- Removed "Unlocks" concept (not conducive to UX and functionally unuseful)
+- Chose to host HSK lists local to the app storage (negligble to ship locally)
+
 ### Version 0.3 (Week 4)
-- Consolidated Favorites feature into dictionary (simplified scope).
-- Finalized splashes and RecyclerView with search/filter shell (HSK levels, Favorites switch, [un]practiced filters).
-- Began work on CC-CEDICT parser.
-- Prepared for Room DB integration for persistence of user data.
+- Consolidated Favorites feature into dictionary (simplified scope)
+- Finalized splashes and RecyclerView with search/filter shell (HSK levels, Favorites switch, [un]practiced filters)
+- Began work on CC-CEDICT parser
+- Prepared for Room DB integration for persistence of user data
 
 ### Version 0.2 (Week 3)
-- Implemented navigation between splash screens and placeholder Activities.
-- Added Disclaimer (Release of Claims) to README/Wiki.
+- Implemented navigation between splash screens and placeholder Activities
+- Added Disclaimer (Release of Claims) to README/Wiki
 
 ### Version 0.1 (Week 1)
 - Defined project idea and scope.
-- Outlined Minimum Viable Product ("MVP"): Flashcards + dictionary (w/ HSK level filtering).
-- Crafted wireframes for core activities (splashes, review, dictionary).
-- Outlined Version 1.0 features list and overall scope.
-- Repo initialized with README / Wiki.
+- Outlined Minimum Viable Product ("MVP"): Flashcards + dictionary (w/ HSK level filtering)
+- Crafted wireframes for core activities (splashes, review, dictionary)
+- Outlined Version 1.0 features list and overall scope
+- Repo initialized with README / Wiki
 
 ## CREDITS & LICENSE
 ### _Credits_:
