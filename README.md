@@ -65,11 +65,11 @@ Back-End (Data-Handling):
 ### Version 0.5 (Week 6)
 - Removed "Bests" concept (not conducive to UX and functionally unuseful)
 - Added Unpracticed term filter in-place of removed "Bests" system
-- Moved full language dictionary to local storage (negligble to ship locally)
+- Moved full language dictionary to local storage (negligible to ship locally)
 
 ### Version 0.4 (Week 5)
 - Removed "Unlocks" concept (not conducive to UX and functionally unuseful)
-- Chose to host HSK lists local to the app storage (negligble to ship locally)
+- Chose to host HSK lists local to the app storage (negligible to ship locally)
 
 ### Version 0.3 (Week 4)
 - Consolidated Favorites feature into dictionary (simplified scope)
