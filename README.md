@@ -28,7 +28,6 @@ The first iteration of this service aims to provide a TTS-centric (Text-to-Speec
 -  _TTS (Text-to-Speech) Dictionary (full 100K+ language set)_
 -  _Review Cards (w/ optional Favorites & Unpracticed modes)_
 -  _Digital Notebook (per-card; in-app)_
--  _UI Theme Customization  (Light / Dark; Theme Color Variants)_
 -  _100% Offline General Access_
 
 ## PLATFORM INFORMATION
@@ -64,6 +63,7 @@ Back-End (Data-Handling):
 
 ### Version 0.6 (Week 7)
 - Committed project repo to GitHub
+- Removed theme customization for sake of meeting submission deadline
 
 ### Version 0.5 (Week 6)
 - Removed "Bests" concept (not conducive to UX and functionally unuseful)
