@@ -1,0 +1,105 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/prototype"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A1A20"
+    tools:context=".Notes">
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="30dp"
+        android:backgroundTint="#6750A4"
+        android:textSize="30dp"
+        android:text="⬅️"
+        android:textColor="#CCCCFF"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/logoText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        />
+
+    <TextView
+        android:id="@+id/logoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="40dp"
+        android:text="我的 快速 HSK"
+        android:textSize="25sp"
+        android:textColor="#49454F"
+        app:layout_constraintStart_toEndOf="@id/backButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        />
+
+    <TextView
+        android:id="@+id/notesHeaderText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="NOTES"
+        android:textSize="48sp"
+        android:textColor="#CCCCFF"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        />
+
+    <TextView
+        android:id="@+id/notes_header_hanzi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="汉字"
+        android:textSize="40sp"
+        android:textColor="#CCCCFF"
+        app:layout_constraintTop_toBottomOf="@id/notesHeaderText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        />
+
+    <EditText
+        android:id="@+id/notes_edit_text"
+        android:inputType="textMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="top"
+        android:textSize="25sp"
+        android:text=""
+        android:textColor="#CCCCFF"
+        android:lines="5"
+        android:background="#000000"
+        android:padding="25dp"
+        app:layout_constraintTop_toBottomOf="@id/notes_header_hanzi"
+        app:layout_constraintBottom_toTopOf="@id/save_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#6750A4"
+        android:textSize="40sp"
+        android:text="💾"
+        android:textColor="#CCCCFF"
+        app:layout_constraintTop_toBottomOf="@id/notes_edit_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintVertical_chainStyle="spread_inside"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,333 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#1A1A20"
+    >
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/review"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A1A20"
+    tools:context=".FilterSearchSplash"
+    >
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guide_line_top"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.25"
+        />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guide_line_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.6" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="30dp"
+        android:backgroundTint="#6750A4"
+        android:textSize="30sp"
+        android:text="⬅️"
+        android:textColor="#CCCCFF"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/logoText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        />
+
+    <TextView
+        android:id="@+id/logoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="40dp"
+        android:text="我的 快速 HSK"
+        android:textSize="25sp"
+        android:textColor="#49454F"
+        app:layout_constraintStart_toEndOf="@id/backButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        />
+
+    <TextView
+        android:id="@+id/dictionary_header_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="FILTER"
+        android:textSize="48sp"
+        android:textColor="#CCCCFF"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/top_constraint_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/guide_line_top"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        >
+    
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/unpracticed_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layoutDirection="rtl"
+            android:textDirection="rtl"
+            android:text="UNPRACTICED"
+            android:textSize="15sp"
+            android:textColor="#CCCCFF"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/favorites_switch"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            />
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/favorites_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layoutDirection="rtl"
+            android:textDirection="rtl"
+            android:text="FAVORITES"
+            android:textSize="15sp"
+            android:textColor="#CCCCFF"
+            app:layout_constraintTop_toTopOf="@id/unpracticed_switch"
+            app:layout_constraintEnd_toStartOf="@id/unpracticed_switch"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/mid_constraint_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/top_constraint_group"
+        app:layout_constraintBottom_toTopOf="@id/bottom_constraint_group"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        >
+
+        <CheckBox
+            android:id="@+id/hsk1_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HSK 1"
+            android:textColor="#CCCCFF"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+
+        <CheckBox
+            android:id="@+id/hsk2_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HSK 2"
+            android:textColor="#CCCCFF"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/hsk1_checkbox"
+            />
+
+        <CheckBox
+            android:id="@+id/hsk3_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HSK 3"
+            android:textColor="#CCCCFF"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/hsk2_checkbox"
+            />
+
+        <CheckBox
+            android:id="@+id/hsk4_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HSK 4"
+            android:textColor="#CCCCFF"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="@id/hsk10_checkbox"
+            />
+
+        <CheckBox
+            android:id="@+id/hsk5_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HSK 5"
+            android:textColor="#CCCCFF"
+            app:layout_constraintTop_toBottomOf="@id/hsk1_checkbox"
+            app:layout_constraintStart_toStartOf="@id/hsk1_checkbox"
+            />
+
+        <CheckBox
+            android:id="@+id/hsk6_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HSK 6"
+            android:textColor="#CCCCFF"
+            app:layout_constraintTop_toBottomOf="@id/hsk2_checkbox"
+            app:layout_constraintStart_toStartOf="@id/hsk2_checkbox"
+            />
+
+        <CheckBox
+            android:id="@+id/hsk7_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:text="HSK 7-9"
+            android:textColor="#CCCCFF"
+            app:layout_constraintTop_toBottomOf="@id/hsk3_checkbox"
+            app:layout_constraintStart_toEndOf="@id/hsk6_checkbox"
+            />
+
+        <CheckBox
+            android:id="@+id/hsk10_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HSK 10+"
+            android:textColor="#CCCCFF"
+            app:layout_constraintTop_toBottomOf="@id/hsk4_checkbox"
+            app:layout_constraintStart_toEndOf="@id/hsk7_checkbox"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/bottom_constraint_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/mid_constraint_group"
+        app:layout_constraintBottom_toTopOf="@id/terms_count_spinner"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintVertical_chainStyle="spread"
+        >
+
+    <RadioGroup
+        android:id="@+id/search_mode_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/exact_match_check"
+        >
+
+        <RadioButton
+            android:id="@+id/search_chinese"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:text="汉字 / 拼音"
+            android:textColor="#CCCCFF"
+            android:checked="true"
+            />
+
+        <RadioButton
+            android:id="@+id/search_english"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="English"
+            android:textColor="#CCCCFF"
+            />
+
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/exact_match_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exact Match  *"
+        android:textColor="#CCCCFF"
+        app:layout_constraintTop_toTopOf="@id/search_mode_group"
+        app:layout_constraintStart_toEndOf="@id/search_mode_group"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <EditText
+        android:id="@+id/search_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:background="#CCCCFF"
+        android:hint="ENTER SEARCH TERM"
+        android:textColorHint="#66000000"
+        android:textAlignment="center"
+        android:textColor="#1A1A20"
+        android:textSize="24sp"
+        app:layout_constraintTop_toBottomOf="@id/guide_line_bottom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Spinner
+        android:id="@+id/terms_count_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:background="#CCCCFF"
+        android:textAlignment="center"
+        android:textColor="#1A1A20"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@id/guide_line_bottom"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <Button
+        android:id="@+id/set_terms_button"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="40dp"
+        android:text="✅"
+        android:textSize="100sp"
+        android:background="@android:color/transparent"
+        android:backgroundTint="#6750A4"
+        app:layout_constraintTop_toBottomOf="@id/search_bar"
+        app:layout_constraintBottom_toTopOf="@id/set_terms_button_subscript"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/set_terms_button_subscript"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="40dp"
+        android:text="SET TERMS"
+        android:textSize="25sp"
+        android:textColor="#CCCCFF"
+        app:layout_constraintTop_toBottomOf="@id/set_terms_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
