@@ -19,7 +19,7 @@ This Android application provides Mandarin learners with an offline, self-tailor
 Many learners struggle to access structured Mandarin vocabulary self-tailored to their level; existing apps are often subscription-based and/or lack [any] customization.  This project provides a free, simple, customizable alternative where learners can study HSK-aligned vocabulary and expand their deck with personal notes.  This project is built with inspiration from the developer's own, personal journey into learning Mandarin and having issues with Quality of Life (QoL) features across different language learning apps.  Though this is not a commercial product, it is a project satisfying not only banal requirements for a University semester project as an illustrative learning example, but, also, the developer's own vestedly-interested desires concerning their language-learning.  Future versions will, undoubtedly, continually interate moving forward; as, the project aims for top marks both academic _and_ serviceable in the Mobile Application market; so, why not provide the service, indefinitely, adding features as able?
 
 ## VERSIONS
-The first iteration of this service aims to provide a TTS-centric (Text-to-Speech), litely-gamified personalized review and notation service coupled with quick-access to what is often considered the gold standard of Chinese character collections (CC-CEDICT).  Future versions need center around phrasebuilding; grammar and context learning; audiovisual samples and reviews; AI- and live-partner-speech practice; and beyond.
+The first iteration of this service aims to provide a TTS-centric (Text-to-Speech), litely-gamified personalized review and notation service coupled with quick-access to what is often considered the gold standard of Chinese character collections (CC-CEDICT).  The next-most version need center around optimization and formatting — with additional versions around phrasebuilding; grammar and context learning; audiovisual samples and reviews; AI- and live-partner-speech practice; and beyond.  Regardless, the current version serves as a functional offline option for lite on-the-go that fulfills the Saint Leo University Learning Outcomes for the course for which this initial project was developed as a conceptual piece.
 
 #
 
@@ -61,6 +61,9 @@ Back-End (Data-Handling):
 (<ins>**NOTE**</ins> — _Wireframe presented in simple schematic format to highlight flow and functionality. Final app layout varies._)
 
 ## CHANGELOG
+
+### Version 0.6 (Week 7)
+- Committed project repo to GitHub
 
 ### Version 0.5 (Week 6)
 - Removed "Bests" concept (not conducive to UX and functionally unuseful)
